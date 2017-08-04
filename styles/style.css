@@ -1,0 +1,25 @@
+html, body {
+	height: 100%;
+}
+
+.main-column {
+	width: 1000px;
+	margin: auto;
+}
+
+header {
+	text-align: center;
+}
+
+.logo {
+}
+
+main {
+	height: 1000px;
+	background-color: #06375c;
+	box-shadow: -5px 5px 0 5px #1766a1 inset;
+}
+
+.main-content {
+	margin: 50px;
+}
