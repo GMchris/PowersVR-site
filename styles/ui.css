@@ -1,0 +1,36 @@
+nav {
+	display: flex;
+	width: calc(100% + 20px);
+	margin: 0 0 0 -10px;
+	background-color: #06375c;
+	box-shadow: -5px 5px 0 5px #1766a1 inset;
+}
+
+a {
+	text-decoration: none;
+}
+
+.nav-btn {
+	display: block;
+	height: 100px;
+	font-family: Commando;
+	flex-grow: 1;
+	text-align: center;
+	font-size: 70px;
+	color: #ffff00;
+	text-shadow: 4px 4px 0 #000000;
+	line-height: 110px;
+	transition: color .15s;
+}
+
+.nav-btn.active {
+	font-size: 80px;
+	line-height: 115px;
+	background-image: url('../assets/images/tab_highlight.png');
+	background-repeat: no-repeat;
+	background-position: center 30px;
+}
+
+.nav-btn:hover { 
+    color: #fffae1;
+}
