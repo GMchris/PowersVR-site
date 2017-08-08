@@ -1,9 +1,10 @@
-html, body {
-	height: 100%;
+html {
+	min-height: 100%;
 }
 
 body {
 	position: relative;
+	height: 100%;
 	background: linear-gradient(#65bcff, #92d0ff);
 }
 
@@ -74,6 +75,12 @@ main {
 
 .main-content {
 	margin: 50px;
+}
+
+.tab {
+	display: none;
+	color: #fff;
+	font-family: "Helvetica";
 }
 
 @keyframes float {

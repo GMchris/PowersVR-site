@@ -20,7 +20,7 @@ a {
 	color: #ffff00;
 	text-shadow: 4px 4px 0 #000000;
 	line-height: 110px;
-	transition: color .15s;
+	transition: all .15s;
 }
 
 .nav-btn.active {
