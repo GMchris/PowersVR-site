@@ -13,8 +13,10 @@ a {
 .nav-btn {
 	display: block;
 	height: 100px;
-	font-family: Commando;
 	flex-grow: 1;
+	background-repeat: no-repeat;
+	background-position: center 30px;
+	font-family: Commando;
 	text-align: center;
 	font-size: 70px;
 	color: #ffff00;
@@ -27,8 +29,6 @@ a {
 	font-size: 80px;
 	line-height: 115px;
 	background-image: url('../assets/images/tab_highlight.png');
-	background-repeat: no-repeat;
-	background-position: center 30px;
 }
 
 .nav-btn:hover { 
