@@ -1,3 +1,6 @@
+import $ from 'jquery';
+import '../styles/style.scss';
+
 var TAGS = {
 	GLOBAL: /\[(img)\].+\[\/(img)\]/g,
 	IMG: /(\[(img)\]).+(\[\/(img)\])/,
