@@ -1,34 +1,29 @@
-nav {
-  display: flex;
-  width: calc(100% + 20px);
-  margin: 0 0 0 -10px;
-  background-color: #06375c;
-  box-shadow: -5px 5px 0 5px #1766a1 inset; }
+header {
+  position: relative;
+  height: 400px;
+  overflow: hidden; }
 
-a {
-  text-decoration: none; }
+.powers-logo {
+  position: absolute;
+  top: 170px;
+  left: calc(50% - 325px);
+  animation: float 10s infinite linear; }
 
-.nav-btn {
-  display: block;
-  height: 100px;
-  font-family: Commando;
-  flex-grow: 1;
-  text-align: center;
-  font-size: 70px;
-  color: #ffff00;
-  text-shadow: 4px 4px 0 #000000;
-  line-height: 110px;
-  transition: all .15s; }
+.header-sil {
+  position: absolute; }
 
-.nav-btn.active {
-  font-size: 80px;
-  line-height: 115px;
-  background-image: url("../assets/images/tab_highlight.png");
-  background-repeat: no-repeat;
-  background-position: center 30px; }
+.whirlwind-sil {
+  top: 90px;
+  left: 65px;
+  animation: float 14s infinite linear; }
 
-.nav-btn:hover {
-  color: #fffae1; }
+.phaser-sil {
+  right: 140px;
+  bottom: -45px; }
+
+.prinxess-sil {
+  right: 85px;
+  bottom: -40px; }
 
 html {
   min-height: 100%; }
@@ -60,33 +55,6 @@ body {
   width: 1000px;
   margin: auto; }
 
-header {
-  position: relative;
-  height: 400px;
-  overflow: hidden; }
-
-.powers-logo {
-  position: absolute;
-  top: 170px;
-  left: calc(50% - 325px);
-  animation: float 10s infinite linear; }
-
-.header-sil {
-  position: absolute; }
-
-.whirlwind-sil {
-  top: 90px;
-  left: 65px;
-  animation: float 14s infinite linear; }
-
-.phaser-sil {
-  right: 140px;
-  bottom: -45px; }
-
-.prinxess-sil {
-  right: 85px;
-  bottom: -40px; }
-
 main {
   height: 1000px;
   background-color: #06375c;
@@ -108,6 +76,38 @@ main {
     transform: translateY(-10px); }
   100% {
     transform: translateY(10px); } }
+
+nav {
+  display: flex;
+  width: calc(100% + 20px);
+  margin: 0 0 0 -10px;
+  background-color: #06375c;
+  box-shadow: -5px 5px 0 5px #1766a1 inset; }
+
+a {
+  text-decoration: none; }
+
+.nav-btn {
+  display: block;
+  height: 100px;
+  flex-grow: 1;
+  background-repeat: no-repeat;
+  background-position: center 30px;
+  font-family: Commando;
+  text-align: center;
+  font-size: 70px;
+  color: #ffff00;
+  text-shadow: 4px 4px 0 #000000;
+  line-height: 110px;
+  transition: all .15s; }
+
+.nav-btn.active {
+  font-size: 80px;
+  line-height: 115px;
+  background-image: url("../assets/images/tab_highlight.png"); }
+
+.nav-btn:hover {
+  color: #fffae1; }
 
 @font-face {
   font-family: Commando;
