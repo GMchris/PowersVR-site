@@ -22,4 +22,10 @@ $(document).ready(function() {
 		$('.tab').hide();
 		$('.tab[data-tab="' + tab + '"]').show();
 	});
+
+	$.getJSON('assets/data/heroes.json', function(data) {		
+	});
 });
+
+function onHeroSelected() {
+}
