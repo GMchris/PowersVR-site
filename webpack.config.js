@@ -48,7 +48,7 @@ module.exports = {
                 include: __dirname,
             }, {
                 test: /\.(eot|svg|ttf|woff|woff2)$/,
-                loader: 'file?name=public/fonts/[name].[ext]'
+                loader: 'file-loader?name=public/fonts/[name].[ext]'
             }
         ]
     },
