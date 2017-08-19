@@ -3,12 +3,6 @@ const path = require('path');
 
 const APP_DIR = path.resolve(__dirname);
 
-const ExtractTextPlugin = require("extract-text-webpack-plugin");
-
-const extractSass = new ExtractTextPlugin({
-    filename: "style.css"
-});
-
 module.exports = {
     entry: APP_DIR + '/js/index.js',
     output: {
@@ -52,7 +46,4 @@ module.exports = {
             }
         ]
     },
-    plugins: [
-      extractSass
-    ]
 };
