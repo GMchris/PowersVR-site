@@ -9,6 +9,12 @@ module.exports = {
         path: APP_DIR,
         filename: 'bundle.js'
     },
+    devServer: {
+        hot: true
+    },
+    plugins: [
+        new webpack.HotModuleReplacementPlugin()
+    ],
     module : {
         loaders : [
             {
