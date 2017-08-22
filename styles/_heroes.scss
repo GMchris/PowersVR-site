@@ -1,0 +1,62 @@
+.hero-gallery {
+	&_content {
+		position: relative;
+		height: 400px;
+		overflow: hidden;
+		font-family: commando;
+
+		& > * {
+			position: absolute;
+		}
+	}
+
+	&_image {
+		width: 60%;
+	}
+
+	&_name {
+		left: 50%;
+		top: 0px;
+		font-size: 30px;
+	}
+
+	&_real-name {
+		left: 50%;
+		top: 10%;
+		font-size: 30px;
+	}
+
+	&_age {
+		left: 80%;
+		top: 10%;
+		font-size: 30px;
+	}
+
+	&_description {
+		left: 50%;
+		top: 30%;
+		width: 50%;
+		height: 50%;
+		font-size: 20px;
+	}
+
+	&_menu {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	&_btn {
+		width: 100px;
+		height: 100px;
+		margin: 10px;
+		background-size: 100%;
+		cursor: pointer;
+		transition: transform .15s;
+		transform: scale(1);
+
+		&:hover {
+			transform: scale(1.1);
+		}
+	}
+}

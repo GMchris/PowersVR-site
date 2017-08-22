@@ -1,5 +1,10 @@
 import $ from 'jquery';
+
 import '../styles/style.scss';
+
+import Heroes from './Heroes';
+import Game from './Game';
+import Press from './Press';
 
 const TAGS = {
 	GLOBAL: /\[(img)\].+\[\/(img)\]/g,
@@ -12,6 +17,8 @@ $(document).ready(function() {
   		$('.tab[data-tab="game"]').html(data.appnews.newsitems[0].contents);
 	});
 
+	new Heroes($('.hero-gallery'));
+
 	$('.nav-btn').on('click', function(event) {
 		event.preventDefault();
 		const $button = $(event.currentTarget);
@@ -23,6 +30,5 @@ $(document).ready(function() {
 		$('.tab[data-tab="' + tab + '"]').show();
 	});
 
-	$.getJSON('assets/data/heroes.json', function(data) {		
-	});
+	$('.nav-btn[data-tab="heroes"]').trigger('click');
 });
