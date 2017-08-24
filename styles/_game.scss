@@ -1,0 +1,35 @@
+$trailer-ratio: 315 / 550;
+$trailer-width: 950px;
+
+.game_trailer-container {
+	position: relative;
+	width:  calc(100% + 100px);
+	padding: 20px;
+	margin-left: -70px; 
+	background-color: $main-background-color;
+	box-shadow: -3px 3px 0 3px #1766a1 inset;
+
+	&:after {
+		content: '';
+		display: block;
+		position: absolute;
+		width: calc(100% - 40px);
+		height: 40px;
+		bottom: -40px;
+		background: linear-gradient(rgba(#000, .3), rgba(#000, 0));
+	}
+}
+
+.game_trailer {
+	display: block;
+	position: relative;
+	width: $trailer-width;
+	height: $trailer-width * $trailer-ratio;
+	margin: auto;
+
+	&-lights {
+		position: absolute;
+		bottom: -4px;
+		pointer-events: none;
+	}
+}

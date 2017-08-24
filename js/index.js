@@ -30,5 +30,5 @@ $(document).ready(function() {
 		$('.tab[data-tab="' + tab + '"]').show();
 	});
 
-	$('.nav-btn[data-tab="heroes"]').trigger('click');
+	$('.nav-btn[data-tab="game"]').trigger('click');
 });
