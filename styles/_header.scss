@@ -6,8 +6,9 @@ header {
 
 .powers-logo {
 	position: absolute;
+	width: 400px;
 	top: 170px;
-	left: calc(50% - 325px);
+	left: calc(50% - 200px);
 	animation: float 10s infinite linear;
 }
 
@@ -29,4 +30,13 @@ header {
 .prinxess-sil {
 	right: 85px;
 	bottom: -40px;
+}
+
+@include media-above(sm) {
+	.powers-logo {
+		width: 550px;
+		top: 170px;
+		left: calc(50% - 275px);
+		animation: float 10s infinite linear;
+	}
 }

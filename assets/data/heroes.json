@@ -3,47 +3,55 @@
 	{
 		"name": "Zap",
 		"realName": "Jay Stevens",
+		"origin": "New York, USA",
 		"age": 26,
 		"description": "After finishing college, and finding a job in retail, Jay's life feel into a monotonous loop.",
 		"image": "zap"
 	}, {
 		"name": "Whirlwind",
 		"realName": "Kimberly Adams",
+		"origin": "Ohio, USA",
 		"age": 22,
 		"description": "Kim's ability to keep a smile on her face at all times came in handy when she was plunged into the role of a superhero, after discovering she could fly less than an year ago. Now she has to combine university work and heroics as the newest member of the The Alliance, while at the same time protecting her secret identity from her overbearing parents. Luckily most missions pair her with Zap who is always ready to guide her on her journey.",
 		"image": "whirlwind"
 	}, {
 		"name": "Phaser",
 		"realName": "Mike Thompson",
+		"origin": "New York, USA",
 		"age": 16,
 		"description": "The teen from Brooklyn lives with his grandmother. Money being tight, he postponed his dreams of pro boxing to get an off the books job as a garbage man. Things got even more sidetracked when one late night at the city dump a small piece of space debris landed and caught his attention. Interacting with the rock imbued cosmic powers in Mike's body, and before long he discovered his ability to teleport at will. Following his father's words, he saw no choice but to use his newfound superpower and his fighting skills for good, trying at the same time to get The Alliance to notice his efforts.",
 		"image": "phaser"	
 	}, {
 		"name": "Dark Prinxess",
 		"realName": "Katie Williams",
+		"origin": "New York, USA",
 		"age": 19,
 		"description": "After losing her father at the age of ten, Katie grew distant and cold. By the age of fourteen she was in trouble every other week, by the time she turned eighteen she had developed a destructive ability - firing heated laserbeams from her eyes. She used this power to position herself as the leader of a gang called the Squires, and appointed herself their Dark Prinxess, commiting roberries and acts of vandalism. Despite her hot headed demeanor there's more to her than meets the eye, just hope her eyes don't meet you.",
 		"image": "prinxess"
 	}, {
 		"name": "Alloy",
 		"realName": "Anton Willaby",
+		"origin": "New York, USA",
 		"age": 36,
 		"description": "After serving in numerous war operations, Anton's military career was cut short after a misplaced friendly explosive cost him his right arm and damaged his hearing. Due to his hard personality he drove away his girlfriend and any potential employers. What frustrated him the most however was the fact he could never serve his country again, or so he thought. After a failed interview, he had a chance meeting with Dr. Strot - a foreign scientist, himself hoping to use his work for the good of mankind. The two collaborated on a high-tech suit, which would allow Anton to become Alloy - the founding hero member of The Alliance.",
 		"image": "alloy"
 	}, {
 		"name": "Fuego",
 		"realName": "Santiago Moreno",
+		"origin": "California, USA",
 		"age": 28,
 		"description": "At the early age of fifteen Santiago got into acting, and is now a major superstar, specializing in romantic comedies and dramas, however when his agent offered something new - an action movie reboot of the classic superhero 'Fireblast', he jumped at the chance, even going so far as to commission a functioning flame suit and renaming the hero to 'Fuego' to fit his own nationality. Blinded by the role, Santiago mistook a robbery as his agent's attemp to motivate method acting, and by sheer luck apprehanded the criminals, boosting his popularity overnight. Pleased with the additional interest, he decided to become a permanent crimefighter - making him the first public superhero.",
 		"image": "fuego"
 	}, {
 		"name": "Professor Hex",
-		"realName": "",
+		"origin": "Shandong, China",
+		"realName": "Shirong Wu",
 		"age": 55,
 		"description": "Once an archaeologist from Japan, his travels led him to an ancient tomb in Africa. It is unknown what he found in there, but once he returned to civillization he was a changed man. Not only does the professor possess grand magical abilities, he also seems to have turned to evil, often being involved in bizzare robberies or caught tempring with archaic knowledge. This left police and his family to speculate what happened to him and what he's aiming to do. One thing is clear however - Professor Hex is not afraid to break the eggs needed for the omlette.",
 		"image": "hex"
 	}, {
 		"name": "Shield Maiden",
+		"origin": "Dortmund, Germany",
 		"realName": "Ana Harrison",
 		"age": 40,
 		"description": "Ana - a historian from germany, took the name Harrison after falling in love in the USA. Her architect husand Dylan designed the house she still lives in today, making sure she has plenty of room for her hobby of collecting medieval weapons and armors. The two lived peacefully, not too far from the city, where Dylan would go to work. One day, it was the police, rather than her husband to greet Ana at her door, informing her that her beloved was killed in a mugging over his wallet. The anger drove her to near insanity, leading her to don a suit of armor and a mace, and seeking her own bloody justice. Soon the hero Alloy intervened and convinced her that there was a better way. She traded the mace for a shield and started to excercise more restrait as the Shield Maiden.",
@@ -51,24 +59,28 @@
 	}, {
 		"name": "The Witch",
 		"realName": "Sarah Brooks",
+		"origin": "Missouri, USA",
 		"age": 31,
 		"description": "A large government complex in an unknown location holds some of the most dangerous criminals and items in the world. The security and scientists there run a tight ship - one which Sarah has called home for over fifteen years. After developing telepatic abilities as a child, she was deemed too dangerous and put behind white cushion walls and kept sedated, sometimes for days at a time. Scared and alone, she learn to hide her powers and eventually the busy personnel lowered their guard. The woman unleashed her pent up fury upon the staff, leaving no one alive. When she finally got outside and felt the grass on her soles for the first time in year, it's as if her rage subsided in an instant. It's hard to tell what she's thinking and if she'll seek revenge, but one thing is clear - The Witch is loose.",
 		"image": "witch"
 	}, {
 		"name": "Nightwatcher",
 		"realName": "Martin Davis",
+		"origin": "New York, USA",
 		"age": 37,
 		"description": "Manic thoughts and heroics don't mix well, as evidenced by Martin Davis, who after ignoring his therapist's advice to medicate, instead decided to find peace of mind by persuing criminals, often violently. Due to Martin's condition however, the line between good and bad is blurred, as he's incapable of seeing the world in anything but black and white. If you're against him and his methods, you're on the wrong side of the law as far as the Nightwatcher is concerned. Using his homemade grappling hook, he bolts from building to builing and swoops down when he feels he's needed.",
 		"image": "nightwatcher"
 	}, {
 		"name": "Ruby",
 		"realName": "Hyun Gwon",
+		"origin": "Busan, South Korea",
 		"age": 24,
 		"description": "Unlike America and Europe, asian countries have more openly accepted superheroes to the point where some are employed by the government full-time. These heroes keep the peace and are often treated as celebrities. Hyun is one such example. She wears a conductive suit, which helps manage her power - blasting concentrated burts of energy from her palms. She's a carefree hero, who often listens to music while performing her duties, and her childish act often tricks evil-doers into lowering their guard, before Ruby gets the best of them.",
 		"image": "ruby"
 	}, {
 		"name": "Hiroku",
 		"realName": "Hiroku Hamada",
+		"origin": "Tokyo, Japan",
 		"age": 23,
 		"description": "Since he was a child, Hiroku wanted to be a protector. He barely managed to get through the police academy, but due to his frail psh",
 		"image": "hiroku"

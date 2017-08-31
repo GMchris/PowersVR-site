@@ -1,7 +1,10 @@
 @import "~normalize.css/normalize.css";
 @import "vars";
+@import "mixins";
+
 @import "layout";
 @import "ui";
+
 @import "heroes";
 @import "game";
 @import "press";

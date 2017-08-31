@@ -1,0 +1,19 @@
+$media-sizes: (
+	xs: 0px,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px
+);
+
+@mixin media-above($key) {
+	@media (min-width: map-get($media-sizes, $key)) {
+		@content;
+	}
+}
+
+@mixin media-below($key) {
+	@media (max-width: map-get($media-sizes, $key)) {
+		@content;
+	}
+}

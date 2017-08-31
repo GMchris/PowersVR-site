@@ -31,19 +31,19 @@ body {
 
 .main-column {
 	position: relative;
-	width: 1000px;
+	max-width: map-get($media-sizes, lg);
+	min-width: map-get($media-sizes, sm);
 	margin: auto;
 }
 
 main {
-	height: 1000px;
+	min-height: 1000px;
 	background-color: #06375c;
 	box-shadow: -5px 5px 0 5px #1766a1 inset;
-	padding-top: 65px;
 }
 
 .main-content {
-	margin: 50px;
+	margin: 20px;
 }
 
 .tab {
@@ -56,4 +56,10 @@ main {
     0%   { transform: translateY(10px); }
     50%  { transform: translateY(-10px); }
     100% { transform: translateY(10px); }
+}
+
+@include media-above(md) {
+	main {
+		padding-top: 65px;
+	}
 }

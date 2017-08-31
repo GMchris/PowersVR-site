@@ -18,19 +18,36 @@ a {
 	background-position: center 30px;
 	font-family: Commando;
 	text-align: center;
-	font-size: 70px;
-	color: #ffff00;
+	font-size: 40px;
+	color: $highlight-color;
 	text-shadow: 4px 4px 0 #000000;
 	line-height: 110px;
 	transition: all .15s;
+
+	&.active {
+		font-size: 50px;
+		line-height: 115px;
+		background-image: url('../assets/images/tab_highlight.png');
+	}
+
+	&:hover { 
+    	color: #fffae1;
+	}
 }
 
-.nav-btn.active {
-	font-size: 80px;
-	line-height: 115px;
-	background-image: url('../assets/images/tab_highlight.png');
+@include media-below(lg) {
+	nav {
+		width: 100%;
+		margin: 0;
+	}
 }
 
-.nav-btn:hover { 
-    color: #fffae1;
+@include media-above(md) {
+	.nav-btn {
+		font-size: 70px;
+
+		&.active {
+			font-size: 80px;
+		}
+	}
 }

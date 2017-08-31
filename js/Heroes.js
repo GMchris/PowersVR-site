@@ -12,11 +12,17 @@ export default class Heroes {
 			$heroBtn.on('click', this.onHeroClicked.bind(this, index));
 		});
 	}
-	onHeroClicked(index) {
+
+	onHeroClicked(index, event) {
 		const hero = heroes[index];
+
+		this.$container.find('.hero-gallery_btn.active').removeClass('active');
+		$(event.currentTarget).addClass('active');
+
 		this.$container.find('.hero-gallery_name').html(hero.name);
 		this.$container.find('.hero-gallery_real-name').html(hero.realName);
 		this.$container.find('.hero-gallery_age').html(hero.age);
+		this.$container.find('.hero-gallery_origin').html(hero.origin);
 		this.$container.find('.hero-gallery_description').html(hero.description);
 		this.$container.find('.hero-gallery_image').attr('src', `./assets/images/gallery/gallery_image_${hero.image}.png`);
 	}
