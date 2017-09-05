@@ -10,6 +10,11 @@ body {
 	background: linear-gradient(#65bcff, #92d0ff);
 }
 
+.centered-section {
+	max-width: 750px;
+	margin: 50px auto;
+}
+
 .background-clouds {
 	position: absolute;
 	height: 500px;
@@ -21,7 +26,7 @@ body {
 
 .background-buildings {
 	position: absolute;
-	height: 700px;
+	height: 300px;
 	left: 0;
 	right: 0;
 	bottom: 0;
@@ -37,13 +42,15 @@ body {
 }
 
 main {
+	@include shade(4px, 0, false);
+
 	min-height: 1000px;
+	padding-bottom: 100px;
 	background-color: #06375c;
-	box-shadow: -5px 5px 0 5px #1766a1 inset;
 }
 
 .main-content {
-	margin: 20px;
+	margin: 45px 45px 0 45px;
 }
 
 .tab {

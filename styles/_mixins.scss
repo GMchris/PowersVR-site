@@ -17,3 +17,21 @@ $media-sizes: (
 		@content;
 	}
 }
+
+@mixin shade($amount, $offset: 0, $shadow: true) {
+	position: relative;
+	box-shadow: -1 * $amount $amount 0 $amount #1766a1 inset;
+
+	@if ($shadow) {
+		&:after {
+			content: '';
+			display: block;
+			position: absolute;
+			height: 15px;
+			left: $offset;
+			right: $offset;
+			bottom: -15px;
+			background: linear-gradient(rgba(#000, .2), rgba(#000, 0));
+		}
+	}
+}

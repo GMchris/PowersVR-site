@@ -1,26 +1,22 @@
 $trailer-ratio: 315 / 550;
 $trailer-width: 950px;
 
-.game_trailer-container {
+.billboard {
+	@include shade(3px);
+
+	padding: 20px;
+}
+
+.video-container {
 	position:relative;
 	height:0;
 	padding-bottom:56.25%;
 	padding-top:30px;
 	overflow:hidden;
 	background-color: $main-background-color;
-
-	&:after {
-		content: '';
-		display: block;
-		position: absolute;
-		width: calc(100% - 40px);
-		height: 40px;
-		bottom: -40px;
-		background: linear-gradient(rgba(#000, .3), rgba(#000, 0));
-	}
 }
 
-.game_trailer {
+.video {
 	position:absolute;
 	top:0;
 	left:0;
@@ -32,5 +28,62 @@ $trailer-width: 950px;
 		width: 100%;
 		bottom: -4px;
 		pointer-events: none;
+	}
+}
+
+.logos {
+	text-align: center;
+
+	img {
+		width: 100px;
+	}
+}
+
+.buy-buttons {
+	display: flex;
+	max-width: 400px;
+	margin: 40px auto;
+}
+
+@mixin buy-button-style($color) {
+	background: linear-gradient($color, darken($color, 6));
+	box-shadow: 0 5px 0 darken($color, 15);
+
+	&:active {
+		box-shadow: 0 0 0 darken($color, 15);
+		transform: translateY(5px);
+	}
+}
+
+.buy-button {
+	width: 50%;
+	height: 75px;
+	cursor: pointer;
+	font-size: 30px;
+	line-height: 70px;
+	transition: all .15s;
+	font-family: SourceCodePro;
+	color: white;
+	text-align: center;
+
+	&:first-child {
+		border-radius: 10px 0 0 10px;
+	}
+
+	&:last-child {
+		border-radius: 0 10px 10px 0;
+	}
+
+	&.steam {
+		@include buy-button-style(#0F5881);
+	}
+
+	&.oculus {
+		@include buy-button-style(#444);
+	}
+
+	img {
+		width: 50px;
+		vertical-align: middle;
 	}
 }
